@@ -27,11 +27,7 @@ while True:
             continue
         else:
             print('game over.')
-            if str(input('Do you want to play another game, yes or no?\n')) == 'yes':
-                print('')
-                continue
-            else:
-                break
+            break
     elif dif in [-2, 1]:
         print('player b wins the game.')
         if str(input('Do you want to play another game, yes or no?\n')) == 'yes':
@@ -39,11 +35,7 @@ while True:
             continue
         else:
             print('game over.')
-            if str(input('Do you want to play another game, yes or no?\n')) == 'yes':
-                print('')
-                continue
-            else:
-                break
+            break
     else:
         print('Draw.Please continue.')
         print('')
